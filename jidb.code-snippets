@@ -11,7 +11,6 @@
 		"prefix": "jidb",
 		"body": [
 			"System.debug('Ironman $1 ' + JSON.serialize($1));",
-			"$2"
 		],
 		"description": "Log output to console"
 	}
