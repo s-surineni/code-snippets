@@ -10,5 +10,13 @@
 			"console.log('ironman $0', $0);"
 		],
 		"description": "Log output to console"
+	},
+
+	"Print json to console": {
+		"prefix": "jlog",
+		"body": [
+			"console.log('ironman $0', JSON.stringify($0));"
+		],
+		"description": "Log json output to console"
 	}
 }
